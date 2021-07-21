@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bio Data Form</title>
+</head>
+<body>
+	<h2>My Bio Data</h2>
+	<form name="myForm" action="/action_page.php" method="get">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label>FirstName:</label>
+			<input type="text" name="FirstName" placeholder="First Name" required>
+			<label>LastName:</label>
+			<input type="text" name="LastName" placeholder="Last Name" required>
+			<br>
+			<br>
+			<label>Male:</label>
+			<input type="radio" name="gender" value="Male" required>
+			<label>Female:</label>
+			<input type="radio" name="gender" value="Female">
+			<label>Other:</label>
+			<input type="radio" name="gender" value="Other">
+			<br>
+			<br>
+			<label>Date of Birth:</label>
+			<input type="date" name="date" required>
+			<br>
+			<br>
+			<label>E-Mail:</label>
+			<input type="email" name="email" placeholder="Enter Your Email" required>
+			<br>
+			<br>
+			<label>Phone:</label>
+			<input type="tel" name="Phone" placeholder="+91" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> 
+			<br>
+			<br>
+			<label>Height:</label>
+			<input type="number" name="height" placeholder="Height in Feet">
+		</fieldset>
+		<fieldset>
+			<legend>Education</legend>
+			<label>School Name:</label>
+			<input type="text" name="school" placeholder="School Name" required>
+			<br>
+			<br>
+			<label>Class:</label>
+			<input type="number" name="class" placeholder="Enter Class" required>
+			<br>
+			<br>
+			<label>Stream:</label>
+			<select name="stream">
+				<option>Stream</option>
+				<option value="Commerce">Commerce</option>
+				<option value="Humanities">Humanities</option>
+				<option value="Medical">Medical</option>
+				<option value="Non-Medical">Non-Medical</option>
+			</select>
+			<br>
+			<br>
+			<label>Marksheet:</label>
+			<input type="file" name="marksheet" required>
+		</fieldset>
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
