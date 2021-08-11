@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ios/50/000000/portfolio.png"/>
+</head>
+<body>
+    <div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mb-0 h1 ms-4" href="#">Sakshi</a>
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active me-2 ms-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 ms-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 ms-2" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4 ms-2" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+      <div class="contain position-relative d-flex justify-content-center" id="contain">
+        <img class="w-100 position-absolute img-fluid" src="https://images.unsplash.com/photo-1510060913381-972498103546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNDc0ODQxfHxlbnwwfHx8fA%3D%3D&w=1000&q=80" alt="...">
+        <div class="contain text-center position-absolute text-white w-100" id="home">
+          <div id="text">
+            <div>
+                <h3>WELCOME</h3>
+                <h1 style="margin-top: 150px; margin-bottom: 15px">I'M A Developing Software Engineer</h1>
+            </div>
+            <div>
+                <span>"I believe you have to be willing to be misunderstood if you're going to innovate."</span><br>
+                <span style="margin-top: 5px;">~ Jeff Bezos</span>
+            </div>
+            <button type="submit" class="btn btn-outline-light" style="margin-top:20px;">DOWNLOAD CV</button>
+          </div>
+        </div>
+
+        <div class="w-50 position-absolute" id="shape1"></div>
+        <div class="w-50 position-absolute" id="shape2"></div>
+      </div>
+
+      <div class="container-fluid" id="about">
+          <div class="row align-items-center d-flex justify-content-center">
+              <div class="col-lg-6 mb-3">
+                  <img class="img-fluid ms-2" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+              </div>
+              <div class="col-lg-6">
+                  <div>
+                      <h2>ABOUT ME</h2>
+                      <h4 class="mt-3 mb-3">Hello! <span class="text-danger">I'M Sakshi Garg.</span></h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi commodi temporibus possimus? Optio aperiam eius dolorem mollitia maxime consequuntur odio minus molestiae eligendi ipsa eveniet sed, doloremque possimus nulla amet.</p>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur porro minima praesentium velit nobis dolorem placeat, voluptates, aperiam deleniti illum libero autem fugiat et obcaecati voluptatem omnis sit corrupti est.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <hr class="ms-5 me-5">
+
+      <div class="container-fluid w-100 pt-5 pb-5 text-center" id="portfolio">
+          <div class="mt-5">
+            <h2 class="mb-4">PORTFOLIO</h2>
+          </div>
+          <div class="row d-flex justify-content-center mb-5">
+              <div class="col-lg-6">
+                  <div class="d-flex">
+                    <span class="skill">C++</span>
+                    <div class="progress w-75 mt-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <span class="skill">HTML5</span>
+                    <div class="progress w-75 mt-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <span class="skill">CSS3</span>
+                    <div class="progress w-75 mt-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <span class="skill">BootStrap</span>
+                    <div class="progress w-75">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <span class="skill">JavaScript</span>
+                    <div class="progress w-75">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="container-fluid text-white text-center" id="contact">
+          <h2>CONTACT</h2>
+          <p class="ms-5 me-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ex illo incidunt repellat labore dolorem quas culpa dicta, et ut, sint officia numquam blanditiis.</p>
+          <div>
+            <a href="https://github.com/sakshigarg06" class="text-white"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sakshigarg06/" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:sakshi0127.cse19@chitkara.edu.in" class="text-white"><i class="fas fa-envelope"></i></a>
+          </div>
+      </div>
+
+      <footer>
+          <hr class="text-secondary align-items-center ms-5 me-5">
+          <div class="container-fluid text-center text-white">
+              <p class="text-secondary">&copy Designed by Sakshi</p>
+          </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/6e13ca6971.js" crossorigin="anonymous"></script>
+</body>
+</html>
