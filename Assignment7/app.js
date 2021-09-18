@@ -41,6 +41,9 @@ function getImage(w){
     if (w.includes("clear")){
         document.body.style.backgroundImage = "url('https://media.istockphoto.com/photos/view-of-a-green-meadow-with-blue-flowers-on-a-sunny-day-picture-id173936056?b=1&k=20&m=173936056&s=170667a&w=0&h=-dyn96uJxXTHRaALnizqaxik4UHC9SbKphhf7I9B2d8=')";
     }
+    else if(w.includes("overcast")){
+        document.body.style.backgroundImage = "url('https://media.istockphoto.com/photos/dramatic-sky-picture-id904784522?b=1&k=20&m=904784522&s=170667a&w=0&h=dvcJZp9X09PZsZz5_-baxI8BKZhaA_UPh-KAz2uVFTI=')"
+    }
     else if(w.includes("clouds")){
         document.body.style.backgroundImage = "url('https://media.istockphoto.com/photos/beautiful-summer-sky-picture-id482466808?b=1&k=20&m=482466808&s=170667a&w=0&h=ILkqIdeEZ8mbcb4meYl6Zwgbe0aZhsfyLbrqtOzw-JU=')";
     }
