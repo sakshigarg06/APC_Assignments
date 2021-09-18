@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="text-center mt-5 mb-5">Current Weather</h1>
+        <form class="text-center mb-5">
+            <label class="me-5">Enter your Location: </label>
+            <input type="text" placeholder="Location" class="me-5">
+            <button type="submit">Get Weather</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="text-center">
+            <div id="city"></div>
+            <div id="date"></div>
+            <div id="temp" class="mt-4"></div>
+            <div id="min_max" class="mb-4"></div>
+            <div id="weather"></div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/6e13ca6971.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
